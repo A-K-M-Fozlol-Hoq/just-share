@@ -1,3 +1,3 @@
 This is a social media application. I am creating this application using next js, recoil, tailwind css and next auth.
 
-T--------------0:16:0
+T--------------0:38:0

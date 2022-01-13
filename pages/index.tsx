@@ -1,15 +1,18 @@
 import Head from 'next/head'
-
+import Header from '../components/Header.js';
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Just Share By Fozlol Hoq</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>This is a social media app named just share</h1>
+      {/* Header */}
+      <Header></Header>
+      {/* Feed */}
 
+      {/* Modal */}
     </div>
   )
 }
