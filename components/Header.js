@@ -14,9 +14,9 @@ const Header = () => {
           <Image src={shortLogo} layout="fill" objectFit="contain"></Image>
         </div>
         {/* Middle - search input field */}
-        <div>
-          <div className="h-5 w-5 text-gray-500">
-            <SearchIcon/>
+        <div className="relative mt-1 p-3 rounded bg-red-500">
+          <div className="absolute inset-y-0 pl-3 flex item-center pointer-events-none">
+            <SearchIcon className="h-5 w-5 text-gray-500"/>
           </div>
           <input type="text" placeholder="Search" />
         </div>
